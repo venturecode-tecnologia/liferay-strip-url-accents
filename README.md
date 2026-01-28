@@ -1,0 +1,1 @@
+# liferay-strip-url-accents
