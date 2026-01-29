@@ -1,0 +1,13 @@
+Bundle-Name: strip-page-accents
+Bundle-SymbolicName: br.com.venturecode.stripfriendlyurlaccents
+Bundle-Version: 1.0.0
+Bundle-Localization: 
+Web-ContextPath: /strip-friendly-url-accent-web
+Provide-Capability:\
+	liferay.language.resources;\
+    osgi.extender; \
+    osgi.extender="jsp.taglib"; \
+    uri="jakarta.tags.core"; \
+    service.ranking:Long="2"; \
+    version:Version="${Bundle-Version}"; \
+	resource.bundle.base.name="content.Language"
